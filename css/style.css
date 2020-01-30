@@ -1,15 +1,71 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #f6f6f6;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #252527;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.4);
   float: left;
   position: fixed;
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+a:hover{
+  color: #3423ca;
+}
+
+
+h1 {
+  font-size: 2.0em;
+  line-height: 1.2;
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+}
+
+h2 {
+  font-size: 1.8em;
+  line-height: 1.2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.2em;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+p {
+  padding-bottom: 20px;
+}
+
+figcaption {
+  font-size: 0.8em;
+  font-style:italic;
+  color: #767676;
+}
+
+.author {
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #110b41;
+}
+
+.story-text {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
 .logo {
   margin: 20px;
   width: 100px;
